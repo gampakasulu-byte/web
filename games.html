@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Gaming & Esports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">GAME<span>ZONE</span></h1>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#games">Games</a>
+                <a href="#tournaments">Tournaments</a>
+                <a href="#teams">Teams</a>
+                <a href="#leaderboard">Leaderboard</a>
+                <a href="#news">News</a>
+            </div>
+
+            <button class="join-btn" onclick="joinCommunity()">
+                Join Community
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">WELCOME TO THE GAMING WORLD</p>
+            <h2>LEVEL UP YOUR<br>
+                <span>GAMING EXPERIENCE</span>
+            </h2>
+            <p>
+                Discover games, compete in tournaments,
+                connect with players and become a champion.
+            </p>
+
+            <a href="#tournaments" class="hero-btn">
+                Explore Tournaments
+            </a>
+        </div>
+    </section>
+
+    <!-- Game Profiles -->
+    <section class="section" id="games">
+        <h2 class="section-title">POPULAR GAMES</h2>
+        <p class="description">Explore the gaming universe</p>
+
+        <div class="game-grid">
+
+            <div class="game-card">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600"
+                     alt="Battle Royale Gaming">
+                <h3>Battle Royale</h3>
+                <p>Action • Multiplayer • Survival</p>
+                <span>⭐ 4.8 Rating</span>
+            </div>
+
+            <div class="game-card">
+                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600"
+                     alt="PC Gaming">
+                <h3>PC Gaming</h3>
+                <p>Strategy • Adventure • Action</p>
+                <span>⭐ 4.7 Rating</span>
+            </div>
+
+            <div class="game-card">
+                <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=600"
+                     alt="Gaming Setup">
+                <h3>Racing Games</h3>
+                <p>Racing • Competition • Speed</p>
+                <span>⭐ 4.6 Rating</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Tournament Schedule -->
+    <section class="section tournament-section" id="tournaments">
+        <h2 class="section-title">ESPORTS TOURNAMENTS</h2>
+        <p class="description">Upcoming gaming competitions</p>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tournament</th>
+                        <th>Date</th>
+                        <th>Game</th>
+                        <th>Prize Pool</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Pro Gaming Cup</td>
+                        <td>Nov 10, 2026</td>
+                        <td>Battle Royale</td>
+                        <td>₹50,000</td>
+                        <td><span class="upcoming">Upcoming</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Elite Champions</td>
+                        <td>Nov 15, 2026</td>
+                        <td>PC Gaming</td>
+                        <td>₹75,000</td>
+                        <td><span class="upcoming">Upcoming</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Racing Masters</td>
+                        <td>Nov 20, 2026</td>
+                        <td>Racing</td>
+                        <td>₹30,000</td>
+                        <td><span class="live">Registration Open</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Gaming Teams -->
+    <section class="section" id="teams">
+        <h2 class="section-title">TOP GAMING TEAMS</h2>
+        <p class="description">Meet the competing teams</p>
+
+        <div class="team-grid">
+
+            <div class="team-card">
+                <div class="team-icon">🔥</div>
+                <h3>Fire Dragons</h3>
+                <p>Team Rank: #1</p>
+                <p>Members: 5 Players</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-icon">⚡</div>
+                <h3>Thunder Squad</h3>
+                <p>Team Rank: #2</p>
+                <p>Members: 5 Players</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-icon">👑</div>
+                <h3>Royal Warriors</h3>
+                <p>Team Rank: #3</p>
+                <p>Members: 5 Players</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Player Profiles -->
+    <section class="section player-section">
+        <h2 class="section-title">FEATURED PLAYERS</h2>
+        <p class="description">Meet the gaming champions</p>
+
+        <div class="player-grid">
+
+            <div class="player-card">
+                <div class="avatar">🎮</div>
+                <h3>ShadowX</h3>
+                <p>Professional Player</p>
+                <span>⭐ 2500 Points</span>
+            </div>
+
+            <div class="player-card">
+                <div class="avatar">🕹️</div>
+                <h3>DarkKnight</h3>
+                <p>Esports Competitor</p>
+                <span>⭐ 2300 Points</span>
+            </div>
+
+            <div class="player-card">
+                <div class="avatar">🚀</div>
+                <h3>ProGamer</h3>
+                <p>Team Captain</p>
+                <span>⭐ 2100 Points</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Leaderboard -->
+    <section class="section" id="leaderboard">
+        <h2 class="section-title">GLOBAL LEADERBOARD</h2>
+        <p class="description">Top ranked gaming players</p>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player Name</th>
+                        <th>Team</th>
+                        <th>Matches</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="rank">🥇 1</td>
+                        <td>ShadowX</td>
+                        <td>Fire Dragons</td>
+                        <td>45</td>
+                        <td>2500</td>
+                    </tr>
+
+                    <tr>
+                        <td class="rank">🥈 2</td>
+                        <td>DarkKnight</td>
+                        <td>Thunder Squad</td>
+                        <td>42</td>
+                        <td>2300</td>
+                    </tr>
+
+                    <tr>
+                        <td class="rank">🥉 3</td>
+                        <td>ProGamer</td>
+                        <td>Royal Warriors</td>
+                        <td>40</td>
+                        <td>2100</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>NightWolf</td>
+                        <td>Fire Dragons</td>
+                        <td>38</td>
+                        <td>1950</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Gaming News -->
+    <section class="section" id="news">
+        <h2 class="section-title">LATEST GAMING NEWS</h2>
+        <p class="description">What's happening in esports?</p>
+
+        <div class="news-grid">
+
+            <div class="news-card">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600"
+                     alt="Esports Event">
+                <h3>Global Esports Championship</h3>
+                <p>Top gaming teams prepare for an exciting championship.</p>
+                <a href="#tournaments">Read More →</a>
+            </div>
+
+            <div class="news-card">
+                <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600"
+                     alt="Gaming Setup">
+                <h3>Latest Gaming Technology</h3>
+                <p>Explore new gaming hardware and modern technologies.</p>
+                <a href="#games">Read More →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2>GAMEZONE</h2>
+        <p>Your Community. Your Game. Your Victory.</p>
+        <div class="social-links">
+            <a href="#home">Instagram</a>
+            <a href="#home">YouTube</a>
+            <a href="#home">Discord</a>
+        </div>
+        <p>© 2026 GameZone. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
