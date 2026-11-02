@@ -3,6 +3,6 @@
 # BRANCH: CSM
 # SECTION: 7
 # TITLES OF THE SELECTED CASE FILES
-## 1. Online Shopping Website 
+## 1. Gaming and Esports Community Website  
 ## 2. Healthy Food and Nutrition Website
-## 3.  Gaming and Esports Community Website 
+## 3. Online Shopping Website 
